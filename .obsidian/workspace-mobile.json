@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "8379a2c42564b34a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0f58ea4138b441e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2099b76f3735e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/1.2 - Mengenlehre (conflict 2022-10-26-12-58-55).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "accedf355c02628d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/Prog/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a7a91aa60a4d2cf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "638ecb7e891e27b3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4c3c55dac56c35ce",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4f30fcc1938ba1cd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "f41c40411c16f1c7",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "dd2bb7214e40c5d4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "33f9c5763798f28a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Module/Prog/Untitled.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4a27f9be9d04a411",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Module/Prog/Untitled.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1b79a9a094edc360",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Module/Prog/Untitled.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "638ecb7e891e27b3",
+  "lastOpenFiles": [
+    "Module/LA1/1.2 - Mengenlehre (conflict 2022-10-26-12-58-55).md",
+    "Module/Prog/Untitled.md",
+    "LaTeX Cheat-Sheet.md",
+    "Module/LA1/1.2 - Mengenlehre.md",
+    "Module/LA1/Kapitel 1 - Logik & Mengenlehre/1.1 - Logik.md",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
+    "Module/HM1/Höhere Mathematik I.md",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen (conflict 2022-10-26-09-50-39).md",
+    "Module/GBI/Kapitel 2 - Signale.../2.1 - Informatik.md"
+  ]
+}

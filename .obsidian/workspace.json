@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "95691d47dbfc2bf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "49bfe24c95511345",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5781f5e53a3c4116",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Lineare Algebra I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "890c26994de54459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "776478969fe169ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "041c305a892f3092",
+    "type": "split",
+    "children": [
+      {
+        "id": "35d87ea825e2e7fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f16d92f78f18625b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2f0e68d055800128",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0755a21cd64407a1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "91dfa40da8bdf653",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b2b51e35b94264c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c195fac5a4bc4363",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b685cb523c204d96",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28d0fea24c9e2701",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bca22730935c4b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "776478969fe169ec",
+  "lastOpenFiles": [
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
+    "Module/LA1/Lineare Algebra I.md",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.1 - Logik.md",
+    "Module/Prog/Untitled.md",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen (conflict 2022-10-26-09-50-39).md",
+    "LaTeX Cheat-Sheet.md",
+    "Module/LA1/Kapitel 1 - Logik & Mengenlehre/1.1 - Logik.md",
+    "Module/HM1/Höhere Mathematik I.md",
+    "Module/Test.md"
+  ]
+}
