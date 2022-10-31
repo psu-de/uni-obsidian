@@ -6,6 +6,7 @@
       {
         "id": "49bfe24c95511345",
         "type": "tabs",
+        "dimension": 50.54704595185996,
         "children": [
           {
             "id": "5781f5e53a3c4116",
@@ -13,38 +14,76 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Lineare Algebra I.md",
+                "file": "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "890c26994de54459",
+            "id": "63d2b8dee4db060b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "77b6cb37faecafdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "776478969fe169ec",
+            "id": "901c87ed5e45f218",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Assets/Skript - GBI.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a5ed501c7154a8c7",
+        "type": "tabs",
+        "dimension": 49.45295404814004,
+        "children": [
+          {
+            "id": "09fd2064d6bbce7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "file": "Module/LA1/Skript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "279e7b93311e27dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LaTeX Cheat-Sheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,27 +189,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md"
+                "file": "Untitled.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205.5
   },
-  "active": "776478969fe169ec",
+  "active": "77b6cb37faecafdb",
   "lastOpenFiles": [
-    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
-    "Module/LA1/Lineare Algebra I.md",
-    "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
-    "Module/LA1/Kapitel 1 - Logik und Mengen/1.1 - Logik.md",
-    "Module/Prog/Untitled.md",
-    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen (conflict 2022-10-26-09-50-39).md",
     "LaTeX Cheat-Sheet.md",
-    "Module/LA1/Kapitel 1 - Logik & Mengenlehre/1.1 - Logik.md",
-    "Module/HM1/Höhere Mathematik I.md",
-    "Module/Test.md"
+    "Assets/Skript - GBI.pdf",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
+    "Untitled.md",
+    "Module/LA1/Skript.md",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.1 - Logik.md",
+    "Assets/Skript - LA I.pdf.md",
+    "Module/LA1/Lineare Algebra I.md",
+    "Assets/LaTeXCheatSheet.pdf"
   ]
 }
