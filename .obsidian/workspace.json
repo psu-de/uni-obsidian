@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Module/LA1/Skript.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "a5ed501c7154a8c7",
@@ -149,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,9 +186,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -200,17 +196,17 @@
     "direction": "horizontal",
     "width": 205.5
   },
-  "active": "77b6cb37faecafdb",
+  "active": "63d2b8dee4db060b",
   "lastOpenFiles": [
-    "LaTeX Cheat-Sheet.md",
-    "Assets/Skript - GBI.pdf",
-    "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
-    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
-    "Untitled.md",
     "Module/LA1/Skript.md",
+    "LaTeX Cheat-Sheet.md",
+    "README.md",
+    "Untitled.md",
+    "Module/GBI/Kapitel 2 - Signale/2.1 - Informatik (conflict 2022-10-26-10-50-39).md",
+    "Module/GBI/Kapitel 2 - Signale/2.1 - Informatik.md",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.2 - Mengenlehre.md",
     "Module/LA1/Kapitel 1 - Logik und Mengen/1.1 - Logik.md",
-    "Assets/Skript - LA I.pdf.md",
-    "Module/LA1/Lineare Algebra I.md",
-    "Assets/LaTeXCheatSheet.pdf"
+    "Assets/Skript - GBI.pdf",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md"
   ]
 }
