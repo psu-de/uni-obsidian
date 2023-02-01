@@ -6,73 +6,65 @@
       {
         "id": "fd787bed6497bd02",
         "type": "tabs",
+        "dimension": 36.26135871916919,
         "children": [
           {
-            "id": "961159248a8d124d",
+            "id": "362f0a24cd0d427e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.1 Ringe & Ringhomomorphismen.md",
+                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2ec0b59160c81ad0",
+            "id": "41e043db272045a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.2 Körper.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8f2952d284b962a1",
+        "type": "tabs",
+        "dimension": 63.73864128083082,
+        "children": [
+          {
+            "id": "e6cf6f307611fefd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.4 - Relationen.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f332cc02bebcbe43",
+            "id": "2a44c126cf213a53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 2 - Gruppen/2.3 Homomorphismen von Gruppen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "091e8ca431e854ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3. Ringe & Körper.md",
+                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "fc4c3627cd760170",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a1a68dd49a5a433f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Assets/LaTeXCheatSheet.pdf"
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,8 +130,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3. Ringe & Körper.md",
-                "collapseAll": false,
+                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -155,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3. Ringe & Körper.md",
+                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3. Ringe & Körper.md"
+                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md"
               }
             }
           },
@@ -190,8 +182,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,17 +199,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "091e8ca431e854ae",
+  "active": "2a44c126cf213a53",
   "lastOpenFiles": [
-    "Module/LA1/Kapitel 2 - Gruppen/2.3 Homomorphismen von Gruppen.md",
-    "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
-    "Module/GBI/Kapitel 2 - Signale/2.1 - Informatik.md",
-    "Module/LA1/Kapitel 3 - Ringe & Körper/3. Ringe & Körper.md",
-    "Assets/LaTeXCheatSheet.pdf",
-    "Assets/LaTeXCheatSheet.pdf.md",
-    "Assets/LaTeXCheatSheet.pdf 1.md",
-    "LaTeX Cheat-Sheet.md",
     "Module/LA1/Kapitel 3 - Ringe & Körper/3.1 Ringe & Ringhomomorphismen.md",
-    "Module/LA1/Kapitel 3 - Ringe & Körper/3.2 Körper.md"
+    "Module/LA1/Kapitel 2 - Gruppen/2.2 Untergruppen.md",
+    "Module/LA1/Aussagenlogik.md",
+    "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
+    "Module/LA1/Kapitel 4 - Lineare Gleichungssysteme und Matrizen/4.2 Invertierbare Matrizen.md",
+    "Module/LA1/Relationen.md",
+    "Untitled.md",
+    "Module/LA1/Gruppen.md",
+    "Module/LA1/Kapitel 2 - Gruppen/2.1 Gruppen Definition.md",
+    "Module/LA1/Kapitel 1 - Logik und Mengen/1.4 - Relationen.md"
   ]
 }
