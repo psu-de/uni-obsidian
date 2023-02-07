@@ -73,6 +73,24 @@ Eine [[Abbildungen#Defintion|Abbildung]] heißt __surjektiv__, wenn gilt:
 	$f(M)$ bildet also auf __alle__ Werte $n \in N$ ab.
 Eine __surjektive__ [[Abbildungen#Defintion|Abbildung]] wird auch __rechtstotal__ genannt.
 
-__Bijektiv__:
+### Bijektiv
 Eine [[Abbildungen#Defintion|Abbildung]] heißt __bijektiv__, wennn sie sowohl [[#Injektiv]] als auch [[#Surjektiv]] ist.
 
+
+### Verknüpfung
+Sei $M$ eine [[Mengen#Definition|Menge]].
+Eine __Verknüpfung__ $*$ auf $M$ ist eine [[Abbildungen#Defintion|Abbildung]]:
+	$*: M \times M \rightarrow M$
+Die __Verknüpfung__ wird _infix_ geschrieben, d.h. statt $*(m_1, m_2)$ schreibt man $m_1 * m_2$.
+
+___Assoziativität___ gilt wenn: 
+	$\forall m_1, m_2, m_3 \in M: (m_1 * m_2) * m_3 = m_1 *  (m_2 * m_3)$
+	
+___Kommutativität___ gilt wenn:
+	$\forall m_1, m_2 \in M: m_1 * m_2 = m_2 * m_1$
+
+### Träger
+Der __Träger__ einer __Abbildung__ $f$ bezeichnet die [[Mengen|Menge]] aller Werte aus dem __Definitionsbereich__, für den $f(x) \neq 0$ ist.
+Ist diese [[Mengen|Menge]] endlich, so hat die __Abbildung__ einen _endlichen __Träger___.
+
+$Abb(M, N)_0 := \{f \in Abb(M, N)\ |\ f \text{ hat endlichen Träger}\}$

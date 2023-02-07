@@ -4,67 +4,85 @@
     "type": "split",
     "children": [
       {
-        "id": "fd787bed6497bd02",
+        "id": "0fd9af532d865572",
         "type": "tabs",
-        "dimension": 36.26135871916919,
+        "dimension": 43.695479777954006,
         "children": [
           {
-            "id": "362f0a24cd0d427e",
+            "id": "f6db53ac46fc77f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "41e043db272045a9",
+            "id": "ffca7bd080816f14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/LaTeXCheatSheet.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "8f2952d284b962a1",
+        "id": "fd787bed6497bd02",
         "type": "tabs",
-        "dimension": 63.73864128083082,
+        "dimension": 56.304520222045994,
         "children": [
           {
-            "id": "e6cf6f307611fefd",
+            "id": "b7313c234596054f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 1 - Logik und Mengen/1.4 - Relationen.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a44c126cf213a53",
+            "id": "03628c19bc34e6f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
+                "file": "Module/LA1/Zusammenfassung/Abbildungen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e8018503a5315dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Zusammenfassung/Homomorphismen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e69fa9a749d4f66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 409.5
   },
   "right": {
     "id": "91dfa40da8bdf653",
@@ -130,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +185,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,17 +213,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a44c126cf213a53",
+  "active": "f6db53ac46fc77f3",
   "lastOpenFiles": [
-    "Module/LA1/Kapitel 3 - Ringe & Körper/3.1 Ringe & Ringhomomorphismen.md",
-    "Module/LA1/Kapitel 2 - Gruppen/2.2 Untergruppen.md",
-    "Module/LA1/Aussagenlogik.md",
-    "Module/LA1/Kapitel 3 - Ringe & Körper/3.3 Polynomringe.md",
-    "Module/LA1/Kapitel 4 - Lineare Gleichungssysteme und Matrizen/4.2 Invertierbare Matrizen.md",
-    "Module/LA1/Relationen.md",
-    "Untitled.md",
-    "Module/LA1/Gruppen.md",
-    "Module/LA1/Kapitel 2 - Gruppen/2.1 Gruppen Definition.md",
-    "Module/LA1/Kapitel 1 - Logik und Mengen/1.4 - Relationen.md"
+    "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
+    "Module/LA1/Zusammenfassung/Homomorphismen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
+    "Module/LA1/Zusammenfassung/Abbildungen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Ringe.md",
+    "Module/LA1/Zusammenfassung/Objekte/Körper.md",
+    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+    "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Mengen.md",
+    "Module/LA1/Lineare Algebra I.md"
   ]
 }

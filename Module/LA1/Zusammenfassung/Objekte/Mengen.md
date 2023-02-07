@@ -23,8 +23,6 @@ __echte Teilmenge__:
 	Man schreibt: $N \subset M$, wenn $N$ eine __echte Teilmenge__ von $M$ ist.
 	D.h.: $M$ enthält neben $N$ auch noch andere Elemente. Es gilt: $|M| > |N|$
 	Siehe [[#Mächtigkeit]].
-	
-
 
 ### Mengengleichheit
 Sei $M, N$ zwei [[Mengen#Definition|Mengen]].
@@ -32,7 +30,6 @@ Um zu Beweisen dass die zwei [[#Definition|Mengen]] $M, N$ gleich sind, ist es i
 
 $M = N \Leftrightarrow (M \subseteq N \land N \subseteq M)$
 (Siehe [[Aussagenlogik#Definition|Aussagenlogik]])
-
 
 ### Operationen
 Seien $M, N$ zwei [[Mengen#Definition|Mengen]].
@@ -53,8 +50,6 @@ Folgende Operationen sind definiert:
 - __Potenz__:
 	$M^k := \{(m_1, m_2, \dots m_k) | \forall i: m_i \in M\}$ für $k \in \mathbb{N}$
 	Eine [[Mengen#Definition|Menge]] an $k$-Tupeln
-
-
 
 ### Potenzmenge
 Die __Potenzmenge__ gibt alle möglichen [[#Teilmenge|Teilmengen]] eine [[#Definition|Menge]] an.
