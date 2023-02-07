@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
                 "mode": "source",
                 "source": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md"
+                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md"
               }
             }
           },
@@ -220,10 +220,10 @@
   },
   "active": "03628c19bc34e6f0",
   "lastOpenFiles": [
-    "Assets/LaTeXCheatSheet.pdf",
     "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
-    "Module/LA1/Zusammenfassung/Abbildungen.md",
     "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
+    "Assets/LaTeXCheatSheet.pdf",
+    "Module/LA1/Zusammenfassung/Abbildungen.md",
     "Module/LA1/Zusammenfassung/Homomorphismen.md",
     "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
     "Module/LA1/Zusammenfassung/Objekte/Ringe.md",

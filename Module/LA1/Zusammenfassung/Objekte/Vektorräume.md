@@ -27,12 +27,47 @@ Man schreibt oft $U \leq V$.
 	$U$ muss also bezüglich der Addition und skalaren Multiplikation abgeschlossen sein.
 	Für zwei __Untervektorräume__ $U_1, U_2 \leq V$ ist auch $U_1 \cap U_2$ ein __Untervektorraum__ von $V$.
 
-#### Summe von Untervektorräumen
+Die [[#Dimension]] des __Untervektorraumes__ ist _kleinder oder gleich_ die des Obervektorraumes: 
+	$dim_K(U) \leq dim_K(V)$.
+	Wenn $dim_K(U) = dim_K(V)$ gilt, ist $U = V$.
+
+### Summe von Untervektorräumen
 Sei $U, W \leq V$ zwei __Untervektorräume__ von $V$.
 Die __Summe der Untervektorräume__ ist definiert durch:
 	$U + W := \{u + w \in V\ |\ u \in U, w \in W\}$
-	Es gilt also auch $U + W = \langle U \cup W \rangle$ ([[#Vektorraumerzeugnis]])
-	_$U + W$ ist der kleinste __Untervektorraum__ der $U$ und $W$ enthält._
+	Schreibweise mit $I$ als _Indexmenge_:
+		$\sum\limits_{i \in I} U_i := \{u_1 + \dots + u_n\ |\ \forall i: u_i \in U_i\}$
+		(Jedes $u_i$ kommt aus dem dazugehörigen $U_i$ (also $u_1\in U_1$, $u_n \in U_n$)
+
+Es gilt also auch $U + W = \langle U \cup W \rangle$ ([[#Vektorraumerzeugnis]])
+_$U + W$ ist der kleinste __Untervektorraum__ der $U$ und $W$ enthält_.
+
+_Dimensionsformel_:
+	Für zwei [[#Dimension|endlichdimensionale]] [[#Untervektorraum|Untervektorräume]] $U, W \leq V$ gilt:
+	$dim(U + W) = dim(U) + dim(W) - dim(U \cap W)$
+
+#### Direkte Summe
+Eine __Summe von Vektorräumen__ $U + W$ gilt als __direkt__, wenn gilt:
+	$\exists_1 u \in U, w \in W: u + w = 0$
+	Es gibt also nur _eine_ Kombination von $u$ und $w$ die den _Nullvektor_ ergibt.
+In dem Fall schreibt man auch $U \oplus W$.
+
+Bzw. mit $I$ als _Indexmenge_:
+	$\bigoplus\limits_{i \in I} U_i$
+
+Hilfssatz:
+	Eine Summe$\sum\limits_{i=1}^n U_i$ ist genau dann eine __direkte Summe__, wenn gilt:
+	$dim_K(\sum\limits_{i=1}^n U_i) = \sum\limits_{i=1}^n dim_K(U_i)$
+
+### Komplementärer Vektorraum
+Seien $U, W \leq V$ zwei [[#Untervektorraum|Untervektorräume]] von $V$.
+Wenn gilt:
+	$V = U \oplus W$
+heißt $W$ ein zu $U$ __komplementärer Vektorraum__.
+In dem Fall gilt außerdem:
+	$U \cap W = \{0\}$.
+Es gilt nach der _Dimensionsformel_ in [[#Summe von Untervektorräumen]]:
+	$dim_K(U) + dim_K(W) = dim_K(V)$, da $dim_K(U \cap W) = 0$ ist.
 
 ### Linearkombination
 Bemerkung: statt alle Vektoren $v \in V$ wird oft eine [[Mengen#Teilmenge|Teilmenge]] $M \subseteq V$ genommen.
@@ -90,3 +125,7 @@ $M$ ist __linear Unabhängig__, wenn sich der _Nullvektor_ als [[#Linearkombinat
 __linear Unabhängig__ bedeutet dass $\langle M \rangle = V$ (glaub ich zumindest)
 
 ### Dimension
+Die __Dimension__ eines __Vektorraumes__ $V$ (über $K$) ist definiert durch die [[Mengen#Mächtigkeit|Mächtigkeit]] der [[#Basis]].
+Sei $B$ eine [[#Basis]] von $V$, dann ist die __Dimension__ von $V$ definiert durch:
+	$dim_K(V) := |B|$
+Gibt es keine endliche __Basis__ $B$ heißt $V$ __unendlichdimensional__, ansonsten __endlichdimensional__.
