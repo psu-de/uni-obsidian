@@ -26,7 +26,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "fd787bed6497bd02",
@@ -51,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Abbildungen.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,6 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +188,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md"
+              }
             }
           },
           {
@@ -213,17 +218,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6db53ac46fc77f3",
+  "active": "03628c19bc34e6f0",
   "lastOpenFiles": [
+    "Assets/LaTeXCheatSheet.pdf",
+    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+    "Module/LA1/Zusammenfassung/Abbildungen.md",
     "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
     "Module/LA1/Zusammenfassung/Homomorphismen.md",
     "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
-    "Module/LA1/Zusammenfassung/Abbildungen.md",
     "Module/LA1/Zusammenfassung/Objekte/Ringe.md",
     "Module/LA1/Zusammenfassung/Objekte/Körper.md",
-    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
     "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
-    "Module/LA1/Zusammenfassung/Objekte/Mengen.md",
-    "Module/LA1/Lineare Algebra I.md"
+    "Module/LA1/Zusammenfassung/Objekte/Mengen.md"
   ]
 }
