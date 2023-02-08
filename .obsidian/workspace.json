@@ -6,16 +6,8 @@
       {
         "id": "0fd9af532d865572",
         "type": "tabs",
-        "dimension": 43.695479777954006,
+        "dimension": 56.18095739084692,
         "children": [
-          {
-            "id": "f6db53ac46fc77f3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
           {
             "id": "ffca7bd080816f14",
             "type": "leaf",
@@ -25,14 +17,34 @@
                 "file": "Assets/LaTeXCheatSheet.pdf"
               }
             }
+          },
+          {
+            "id": "03628c19bc34e6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Zusammenfassung/Abbildungen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a74d874145f2b07",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "fd787bed6497bd02",
         "type": "tabs",
-        "dimension": 56.304520222045994,
+        "dimension": 43.81904260915307,
         "children": [
           {
             "id": "b7313c234596054f",
@@ -47,7 +59,7 @@
             }
           },
           {
-            "id": "03628c19bc34e6f0",
+            "id": "a9a3689e6dc075c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -81,9 +93,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c01ae2de65a0357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +173,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +189,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,9 +210,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Matrizen.md"
-              }
+              "state": {}
             }
           },
           {
@@ -218,17 +238,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03628c19bc34e6f0",
+  "active": "1a74d874145f2b07",
   "lastOpenFiles": [
-    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
-    "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
+    "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
     "Assets/LaTeXCheatSheet.pdf",
-    "Module/LA1/Zusammenfassung/Abbildungen.md",
-    "Module/LA1/Zusammenfassung/Homomorphismen.md",
-    "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
-    "Module/LA1/Zusammenfassung/Objekte/Ringe.md",
-    "Module/LA1/Zusammenfassung/Objekte/Körper.md",
     "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
-    "Module/LA1/Zusammenfassung/Objekte/Mengen.md"
+    "Module/LA1/Zusammenfassung/Objekte/Ringe.md",
+    "Module/LA1/Zusammenfassung/Objekte/Mengen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
+    "Module/LA1/Zusammenfassung/Homomorphismen.md",
+    "Module/LA1/Zusammenfassung/Abbildungen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+    "Module/LA1/Zusammenfassung/Objekte/Dualraum.md"
   ]
 }

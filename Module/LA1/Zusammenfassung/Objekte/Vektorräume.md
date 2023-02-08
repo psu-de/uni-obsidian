@@ -97,11 +97,13 @@ Jeder Vektor $v \in V$ lässt sich auf _genau eine Art_ als [[#Linearkombination
 	$v = \sum\limits_i a_i b_i$      mit $a_i \in K$ und $b_i \in B$.
 oder auch:
 	$\forall v \in V: \exists_1 \lambda \in Abb(B, K)_0 : v = \sum\limits_{b \in B} \lambda(b) \cdot b$
-	Es existiert als _genau eine_ [[Abbildungen|Abbildung]] von der __Basis__ $B$ nach $K$ mit [[Abbildungen#Träger|endlichem Träger]] die man für die [[#Linearkombination]] nutzen kann.
+	Es existiert als _genau eine_ [[Abbildungen|Abbildung]] $\lambda$ von der __Basis__ $B$ nach $K$ mit [[Abbildungen#Träger|endlichem Träger]] die man für die [[#Linearkombination]] nutzen kann.
 
 Eine __Basis__ $B$ ist das _kleinste_ [[#Vektorraumerzeugnis|Vektorraumerzeugnissystem]] von $V$: $\langle B \rangle = V$.
 Eine __Basis__ ist immer [[#Lineare Abhängigkeit|linear Unabhängig]].
 Für einen __Vektorraum__ $K^p$ hat die __Basis__ genau $p$ Elemente.
+
+Zwei __Basen__ $B, C$ von $V$ haben __immer__ die gleiche [[Mengen#Mächtigkeit|Mächtigkeit]].
 
 #### Geordnete Basis
 Bei einer __geordneten Basis__ ist die Reihenfolge der Vektoren in $B$ nicht egal, sondern entscheidend.
@@ -129,3 +131,24 @@ Die __Dimension__ eines __Vektorraumes__ $V$ (über $K$) ist definiert durch die
 Sei $B$ eine [[#Basis]] von $V$, dann ist die __Dimension__ von $V$ definiert durch:
 	$dim_K(V) := |B|$
 Gibt es keine endliche __Basis__ $B$ heißt $V$ __unendlichdimensional__, ansonsten __endlichdimensional__.
+
+### Lineare Fortsetzung
+Sei $K$ ein [[Körper]] und $V, W$ zwei $K$-[[Vektorräume]] und $B$ eine [[#Basis]] von $V$.
+
+Eine [[#Lineare Abbildung]] $f: V\rightarrow W$ ist eindeutig durch das [[Abbildungen#Bild|Bild]] einer [[#Basis]] $B$ von $V$ bestimmt.
+
+Satz  der __linearen Fortsetzung__:
+	Sei $f' \in Abb(B, W)$ eine [[Abbildungen|Abbildung]], dann existiert eine [[#Lineare Abbildung]] $f: V \rightarrow W$ für die gilt:
+			$\forall b \in B: f(b) = f'(b)$   (also $f$ auf $B$ eingeschränkt ist $f'$ ($f|_B = f'$))
+	$f$ heißt __lineare Fortsetzung__ von $f'$ und ist __eindeutig__.
+	Es gilt mit der [[#Linearkombination]]:
+		$f(v) = f(\sum\limits_{b \in B} \lambda(b) \cdot b) = \sum\limits_{b \in B} \lambda(b) \cdot f'(b)$
+	Man muss $f$ also gar nicht genau kennen um $f(v)$ zu berechnen.
+	d.h. [[#Lineare Abbildung|lineare Abbildungen]] stehen in _Bijektion_ zu $Abb(B, W)$. Man schreibt:
+		$Hom(V, W) \cong Abb(B, W)$
+
+Dadurch herrscht ein [[Homomorphismen#Isomorphismus|(Vektorraum)Isomorphismus]] zwischen $Hom(V ,W) \rightarrow Abb(B, W), \Phi \mapsto \Phi|_B$
+
+### Linearform
+Eine __Linearform__ ist eine $K$-[[#Lineare Abbildung|lineare Abbildung]] von $V$ nach $K$.
+

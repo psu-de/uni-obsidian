@@ -55,3 +55,17 @@ Folgende Operationen sind definiert:
 Die __Potenzmenge__ gibt alle möglichen [[#Teilmenge|Teilmengen]] eine [[#Definition|Menge]] an.
 Sei $M$ eine [[#Definition|Menge]].
 	$\mathcal{P}(M) := \{x|x\subseteq M\}$
+
+### Ordnungsrelation
+Eine [[Relationen#Reflexiv|reflexive]] und [[Relationen#Transitiv|transitive]] __[[Relationen|Relation]]__ $\leq$ über eine [[Mengen|Menge]] $M$ heißt __Ordnungsrelation__, wenn gilt:
+	$\forall x, y \in M: [x \leq y \land y \leq x] \Rightarrow x = y$
+	Es kann also nicht $x \leq y$ _und_ $y \leq x$ gelten, wenn $x \neq y$.
+
+#### Totale Ordnung
+Eine [[Mengen|Menge]] $M$ heißt __total Geordnet__, wenn _für alle_ Elemente gilt:
+	$\forall x, y \in M: x \leq y \lor y \leq x$.
+
+#### Obere Schranke
+Eine __Obere Schranke__ $z \in M$ ist das _größte_ Elemente in $M$, für das gilt:
+	$\forall x \in M: x \leq z$
+	Es gibt also kein Element in $M$, für dass die [[Relationen|Relation]] $\leq$ falsch ist, wenn $z$ auf der rechten Seite steht.

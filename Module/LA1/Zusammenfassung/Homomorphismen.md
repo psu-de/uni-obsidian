@@ -55,3 +55,7 @@ Da die __Vektoraddition__ also strukurerhaltend ist, ist $\Phi$ also auch ein [[
 #### Kern
 Der __Kern__ des __Vektorraumhomomorphismus__ ist gleich wie beim [[#Gruppenhomomorphismus]].
 Der __Kern__ von $\Phi$ ist ein [[Vektorräume#Untervektorraum|Untervektorraum]] von $V$.
+
+#### Rang
+Der __Rang__ eines __Vektorraumhomomorphismus__ ist definiert als:
+	$Rang(\Phi) = dim(\Phi(V))$ 

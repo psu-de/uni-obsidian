@@ -121,3 +121,21 @@ $s_i$ gibt nun den Index der Spalte an, an der die erste Zahl $\neq 0$ in der Ze
 Alle Elemente links von $s_i$ in der Zeile $i$ sind $0$.
 Im Beispiel von $A$ gibt es 3 __Stufenindizes__, da $Rang(A) = 3$. Die __Stufenindizes__ sind:
 	$s_1 = 2$, $s_2 = 3$, $s_3 = 5$
+
+### Abbildungsmatrix
+Seien $V, W$ zwei $K$-[[Vektorräume]], mit beliebigen [[Vektorräume#Dimension|Dimensionen]] $dim_K(V) = q$ und  $dim_K(W) = p$.
+Dazu sei $B := \{b_1, \dots, b_q\}$ eine [[Vektorräume#Basis|Basis]] von $V$, und $C := \{c_1, \dots, c_p\}$ eine [[Vektorräume#Basis|Basis]] von $W$.
+Zudem ist durch $\Phi: V \rightarrow W$ ein [[Homomorphismen#Vektorraumhomomorphismus|Homormorphismus]] gegeben.
+
+Eine __Abbildungsmatrix__ wird genutzt, um die _Koeffizenten_ der Basen $c_i$ zu bestimmen, um $\Phi(v) \in W$ als [[Vektorräume#Linearkombination|Linearkombination]] von $C$ zu schreiben.
+
+Sei $A \in K^{p \times q}$ die __Abbildungsmatrix__.
+Für alle $b_j \in B$ wird $\Phi(b_j)$ wird als [[Vektorräume#Linearkombination|Linearkombination]] von $C$ geschrieben:
+	$\Phi(b_j) = a_{1j} c_1 + a_{2j} c_2 + \dots + a_{pj} c_p = \sum\limits_{k=1}^{p} a_{kj} c_k$
+Die __Abbildungsmatrix__ von $\Phi$ ergibt sich, indem man die _Koeffizienten_ $a_{ij}$ von $b_j$ spaltenweise in $A$ schreibt. Die $j$-te Base in $B$ ergibt also die Spalte $j$ in $A$.
+
+Die __Abbildungsmatrix__ bezüglich eines [[Homomorphismen#Vektorraumhomomorphismus|Homormorphismus]] und zwei [[Vektorräume#Basis|Basen]] $B, C$ wird in der Regel geschrieben als:
+	$D_{CB}(\Phi) := A$
+
+Für die [[Vektorräume#Koordinatenvektor|Koordinatenabbildungen]] $D_B: V \rightarrow K^q$ und $D_C: W \rightarrow K^q$ gilt:
+	$D_C(\Phi(v)) = D_{CB}(\Phi) \cdot D_B(v)$
