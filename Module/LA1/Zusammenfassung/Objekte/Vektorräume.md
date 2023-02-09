@@ -152,3 +152,18 @@ Dadurch herrscht ein [[Homomorphismen#Isomorphismus|(Vektorraum)Isomorphismus]] 
 ### Linearform
 Eine __Linearform__ ist eine $K$-[[#Lineare Abbildung|lineare Abbildung]] von $V$ nach $K$.
 
+### Determinantenfunktion
+Sei $V$ ein $K$-[[Vektorräume|Vektorraum]].
+Eine __Determinantenfunktion__ $D: (K^n)^n: \rightarrow K$ ist eine [[Abbildungen|Abbildung]] wobei $n = dim_K(V)$, mit den Eigenschaften:
+	Seien $v_1, \dots v_n \in V$ beliebige Vektoren.
+	- $D(v_1, \dots, v_{i-1}, v_i + v_i^{'}, v_{i+1}, \dots, v_n) = D(v_1, \dots, v_n) + D(v_1, \dots, v_i^{'}, \dots, v_n)$     für $1 \leq i \leq n$
+	- $D(v_1, v_2, \dots, \alpha \cdot v_i, \dots, v_n) = \alpha \cdot D(v_1, v_2, \dots, v_n)$      für $1 \leq i \leq n$ und $\alpha \in K$
+	- $D(v_1, \dots, v_i, \dots, v_j, \dots, v_n) = 0$    wenn zwei Vektoren $v_i = v_j$ gleich sind (und $i \neq j$)
+
+Für $D$ gilt:
+	- $D$ ist eine __Multilinearform__, d.h.:
+		Für jedes $v_i$ ist die [[Abbildungen|Abbildung]] $v_i \mapsto D(v_1, \dots, v_i, \dots, v_n)$ eine [[#Linearform]].
+	- Addiert man ein $K \ni \alpha$-faches $v_j$ zu $v_i$ (mit $i \neq j$), gilt:
+		$D(v_1, \dots , v_i + \alpha v_j , \dots , v_j , \dots , v_n) = D(v_1, \dots , v_n)$
+	- Vertauscht man die Indizies von $v_1, \dots, v_n$ durch eine [[Permutationen|Permutation]], ändert sich das Vorzeichen von $D$ durch das [[Permutationen#Signum|Signum]] (also $\pm 1$):
+		$D(v_{\sigma(1)}, \dots, v_{\sigma(n)}) = sign(\sigma) \cdot D(v_1, \dots, v_n)$

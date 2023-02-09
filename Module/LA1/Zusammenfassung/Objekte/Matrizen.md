@@ -93,9 +93,46 @@ Die Matrizen in $GL_p$ heißen invertierbare Matrizen. Es gilt:
 	$GL_p(R) \ni A: A \cdot A^{-1} = A^{-1} \cdot A = I_p$
 
 ### Determinante
-... Definition folgt.
+Die __Determinate__ einer __Matrix__ $M \in K^{n \times n}$ ist die [[Vektorräume#Determinantenfunktion|Determinatenfunktion]] des [[Vektorräume|Vektorraums]] $K^n$.
+(Das ist aber relativ unwichtig um die __Determinante__ zu berechnen).
 
-Wenn gilt: $det(A) \neq 0$, ist die Matrix [[#Invertierbare Matrizen|invertierbar]].
+Es gelten folgende Merkregeln für die __Determinante__:
+	- $det(M \cdot A_{ij}(\alpha)) = det(M)$  für eine beliebige [[#Additionsmatrizen|Additionsmatrix]] $A_{ij}$ und $\alpha \in K$.
+	- $det(M \cdot V_{ij}) = -det(M)$     für eine beliebige [[#Vertauschungsmatrix]] $V_{ij}$
+	- $det(M \cdot diag(\alpha_1, \dots, \alpha_n)) = (\prod_{i=1}^n \alpha_i) \cdot det(M)$   für $\alpha_i \in K$
+	- $det(I_n) = 1$
+	- $det(M \cdot X) = det(M) \cdot det(X)$
+	- $det(M) \neq 0 \Rightarrow M \in GL_n(K)$   die Matrix ist also [[#Invertierbare Matrizen|invertierbar]].
+	- $det(M^T) = det(M)$
+
+#### Laplace-Entwicklung
+Die __Laplace-Entwicklung__ wird benutzt um von $n\times n$-Matrizen die [[#Determinante]] zu bestimmen.
+Es ist eine [[Abbildungen|Abbildung]] $det: K^{n\times n} \rightarrow K$ mit den Eigenschaften einer [[Vektorräume#Determinantenfunktion|Determinantenfunktion]].
+
+__Rekursive Definition__:
+	Für eine feste Zeile $k$ (Für $k$ wird eine Zeile mit möglichst Nullen gewählt)
+	(Für $n=0$):
+		det(A) = 1
+	Für $n = 1$:
+		$det((a)) := a$
+	Für $n \geq 2$:
+		$det(A) := \sum\limits_{j=1}^n (-1)^{j+k} a_{kj} \cdot det(A_{k,j})$
+		wobei $A_{k, j}$ entsteht durch das Streichen der $k$-ten Zeile und $j$-ten Spalte.
+		(Also $A_{k,j} \in K^{(n-1)\times(n-1)}$)
+
+__Beispiel 3x3 Matrix__:
+	$K^{3\times 3} \ni A = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i\end{pmatrix}$ und $k = 1$
+	Dann gilt für die [[#Determinante]]:$$\begin{align}
+	\begin{split}
+		det(A) & =
+		+a\cdot det(\begin{pmatrix} e & f \\ h & i\end{pmatrix})
+		-b\cdot det(\begin{pmatrix} d & f \\ g & i\end{pmatrix})
+		+c\cdot det(\begin{pmatrix} d & e \\ g & h\end{pmatrix}) \\\\
+		& = a(e \cdot det(i) - f \cdot det(h)) - b(d \cdot det(i) - f\cdot det(g)) + c(d\cdot det(h) - e\cdot det(g)) \\\\
+		& = a(ei - fh) - b(di -fg) + c(dh - eg)
+	\end{split}
+	\end{align}
+	$$
 
 ### Gauß-Normalform
 Eine __Matrix__ $T$ hat __Gauß-Normalform__ oder auch __Treppenform__ genannt, wenn sich mit zunehmender Zeilenzahl die Spalten auf der linken Seite zunehmend mit Nullen gefüllt sind.
@@ -113,6 +150,8 @@ Diese __Matrix__ ist in __Gauß-Normalform__.
 Der __Rang__ bezeichnet den _letzten Zeilenindex_ in $A$, in der noch _mindestens eine_ andere Zahl als $0$ steht.
 Alle Zeilen die unter dem __Rang__ stehen dürfen nur $0$ enhalten.
 Im Beispiel von $A$ ist $Rang(A) = 3$.
+_Merksatz_: 
+	Wenn für eine Matrix $M \in K^{p \times p}$ gilt $Rang(M) = p$, ist sie eine [[#Invertierbare Matrizen|invertierbare Matrix]].
 
 #### Stufenindizes
 Für jede Zeile einer Matrix in __Gauß-Normalform__ die nicht nur aus nullen besteht (also gibt es $Rang(A)$ viele __Stufenindizes__), gibt es einen __Stufenindex__ $s_i$, wobei $i$ die Zeile der Matrix angibt.

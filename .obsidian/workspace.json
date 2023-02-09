@@ -6,7 +6,7 @@
       {
         "id": "0fd9af532d865572",
         "type": "tabs",
-        "dimension": 56.18095739084692,
+        "dimension": 56.18095739084693,
         "children": [
           {
             "id": "ffca7bd080816f14",
@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
+                "file": "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,15 +240,15 @@
   },
   "active": "1a74d874145f2b07",
   "lastOpenFiles": [
+    "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
+    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
+    "Module/LA1/Zusammenfassung/Objekte/Lineares Gleichungssystem.md",
     "Module/HM1/Kapitel 1 - Aussagen und Logik/1.1 - Aussagen.md",
     "Assets/LaTeXCheatSheet.pdf",
-    "Module/LA1/Zusammenfassung/Objekte/Matrizen.md",
     "Module/LA1/Zusammenfassung/Objekte/Ringe.md",
     "Module/LA1/Zusammenfassung/Objekte/Mengen.md",
     "Module/LA1/Zusammenfassung/Objekte/Gruppen.md",
     "Module/LA1/Zusammenfassung/Homomorphismen.md",
-    "Module/LA1/Zusammenfassung/Abbildungen.md",
-    "Module/LA1/Zusammenfassung/Objekte/Vektorräume.md",
-    "Module/LA1/Zusammenfassung/Objekte/Dualraum.md"
+    "Module/LA1/Zusammenfassung/Abbildungen.md"
   ]
 }

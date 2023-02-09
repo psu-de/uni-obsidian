@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Module/LA1/Zusammenfassung",
+      "query": "path:Module/LA1",
       "color": {
         "a": 1,
-        "rgb": 61183
+        "rgb": 54783
       }
     },
     {
@@ -27,13 +27,6 @@
         "a": 1,
         "rgb": 11271696
       }
-    },
-    {
-      "query": "path:Module/LA1",
-      "color": {
-        "a": 1,
-        "rgb": 7209205
-      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +39,6 @@
   "repelStrength": 14.53125,
   "linkStrength": 1,
   "linkDistance": 283,
-  "scale": 0.6316046762907508,
+  "scale": 0.6316046762907501,
   "close": false
 }
