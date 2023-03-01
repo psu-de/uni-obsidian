@@ -11,7 +11,7 @@ Die Matrix wird geschrieben als:
 
 $A =	\begin{pmatrix}		a_{1,1} & a_{1,2} & \dots & a_{1,q} \\		a_{2,1} & a_{2,2} & \dots & a_{2,q} \\		\vdots  & \vdots  &  & \vdots \\		a_{p,1} & a_{p,2} & \dots & a_{p,q}	\end{pmatrix}$
 
-$R^{p\times q}$ gibt die [[Mengen|Menge]] aller $p\times q$-Matrizen an.
+$R^{p\times q}$ gibt die [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] aller $p\times q$-Matrizen an.
 
 #### Matrizenring
 Die Matrizen auf $R^{p \times p}$ bilden einen [[Ringe|Ring]] $(R^{p \times p}, +, \cdot)$

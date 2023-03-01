@@ -1,5 +1,5 @@
 ## Definition
-Ein __Ring__ ist eine [[Mengen|Menge]] $R$ mit zwei [[Abbildungen#Verknüpfung|Verknüpfungen]]:
+Ein __Ring__ ist eine [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] $R$ mit zwei [[Abbildungen#Verknüpfung|Verknüpfungen]]:
 	- Die _kommutative_ __Addition__ $+$
 	- Die _assoziative_ __Multiplikation $\cdot$
 
@@ -19,7 +19,7 @@ Ist die __Multiplikation__ eines Ringes $R$ _kommutativ_, heißt der Ring __komm
 
 ### Teilring
 Sei $(R, +, \cdot)$ ein __Ring__.
-Ein __Teilring__ $T$ von $R$ ist eine [[Mengen#Teilmenge|Teilmenge]] von $R$.
+Ein __Teilring__ $T$ von $R$ ist eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]] von $R$.
 Für einen __Teilring__ gelten folgende Eigenschaften:
 	- $1_R \in T$
 	- $\forall t_1, t_2 \in T: t_1 + t_2 \in T$
@@ -33,7 +33,7 @@ Für eine solche __Einheit__ gilt:
 $y$ ist _eindeutig_, und man schreibt auch $x^{-1}$.
 
 ### Einheitengruppe
-Die __Einheitengruppe__ $R^{\times}$ ist die [[Mengen|Menge]] aller [[#Einheiten]] in $R$.
+Die __Einheitengruppe__ $R^{\times}$ ist die [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] aller [[#Einheiten]] in $R$.
 $R^{\times}$ bildet mit der __Multiplikation__ die [[Gruppen|Gruppe]] $(R^{\times}, \cdot)$
 
 ### Nullteilerfreiheit

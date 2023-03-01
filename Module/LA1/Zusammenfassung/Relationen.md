@@ -1,6 +1,6 @@
 
 # Definition
-Eine (_zweistellige_) __Realtion__ ist eine [[Mengen#Teilmenge|Teilmenge]] $R \subseteq M\times M$ auf eine beliebige [[Mengen#Definition|Menge]] $M$.
+Eine (_zweistellige_) __Realtion__ ist eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]] $R \subseteq M\times M$ auf eine beliebige [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]] $M$.
 
 Statt $(x, y) \in R$ schreibt man oft $xRy$.
 
@@ -33,12 +33,12 @@ Eine [[#Definition|Relation]] heißt __Äquivalenzrelation__, wenn sie [[#Reflex
 Auf ihr gibt es sogennante [[#Äquivalenzklassen]]
 
 ### Äquivalenzklassen
-Sei $R$ eine [[#Äquivalenzrelation]] auf der [[Mengen#Definition|Menge]] $M$.
+Sei $R$ eine [[#Äquivalenzrelation]] auf der [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]] $M$.
 
 Eine __Äquivalenzklasse__ von $x$ (bezüglich R) ist definiert durch:
 	$[x]_R := \{y \in M|xRy\} \subseteq M$
 	Also alle $y \in M$ die mit $(x, y)$ auch ein Teil von $R$ sind.
-	(Siehe [[Mengen#Teilmenge|Teilmenge]])
+	(Siehe [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]])
 
 Für __Äquivalenzklassen__ gilt:
 	- $M = \bigcup\limits_{x \in M} [x]_R$

@@ -1,5 +1,5 @@
 # Defintion
-Seien $M,N$ zwei [[Mengen#Definition|Mengen]].
+Seien $M,N$ zwei [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Mengen]].
 Eine __Abbildung__ $f: M \rightarrow N$ ordnet jedem $m \in M$ __genau ein__ $n\in N$ zu.
 
 $M$ heißt __Definitionsbereich__
@@ -10,7 +10,7 @@ __Eigenschaften__:
 	- $\forall m \in M: \exists_1 n \in N: (m, n) \in f$     
 	- $\forall m \in M: f(m) \in N \land (m, f(m)) \in f$
 
-$Abb(M, N)$ ist die [[Mengen#Definition|Menge]] aller __Abbildungen__ von $M \rightarrow N$.
+$Abb(M, N)$ ist die [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]] aller __Abbildungen__ von $M \rightarrow N$.
 Auch $N^M$ geschrieben.
 
 ### Gleichheit
@@ -43,13 +43,13 @@ Das __Urbild__ $f^{-1}$ ist definiert durch:
 	$f^{-1}: \mathcal{P} \rightarrow \mathcal{M}$
 	$f^{-1}(B) := \{m \in M|f(m) \in B\}$
 	Das __Urbild__ gibt alle Werte in $M$ zurück, für die $f(m)$ in $B$ liegt.
-	$B$ muss eine [[Mengen#Teilmenge|Teilmenge]] von $N$ sein: $B \subseteq N$.
+	$B$ muss eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]] von $N$ sein: $B \subseteq N$.
 
 ### Bild
 Sei $f: M \rightarrow N$ eine [[#Defintion|Abbildung]].
 Das __Bild__ ist definiert durch:
 	$f(A) := \{f(a)|a \in A\} \subseteq N$
-	Es ordnet einer [[Mengen#Definition|Menge]] $A \subseteq M$ die korrespondierenden Werte $f(m)$ zu.
+	Es ordnet einer [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]] $A \subseteq M$ die korrespondierenden Werte $f(m)$ zu.
 
 ### Umkehrabbildungen / Inverse
 Sei $f: M \rightarrow N$
@@ -78,7 +78,7 @@ Eine [[Abbildungen#Defintion|Abbildung]] heißt __bijektiv__, wennn sie sowohl [
 
 
 ### Verknüpfung
-Sei $M$ eine [[Mengen#Definition|Menge]].
+Sei $M$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]].
 Eine __Verknüpfung__ $*$ auf $M$ ist eine [[Abbildungen#Defintion|Abbildung]]:
 	$*: M \times M \rightarrow M$
 Die __Verknüpfung__ wird _infix_ geschrieben, d.h. statt $*(m_1, m_2)$ schreibt man $m_1 * m_2$.
@@ -90,7 +90,7 @@ ___Kommutativität___ gilt wenn:
 	$\forall m_1, m_2 \in M: m_1 * m_2 = m_2 * m_1$
 
 ### Träger
-Der __Träger__ einer __Abbildung__ $f$ bezeichnet die [[Mengen|Menge]] aller Werte aus dem __Definitionsbereich__, für den $f(x) \neq 0$ ist.
-Ist diese [[Mengen|Menge]] endlich, so hat die __Abbildung__ einen _endlichen __Träger___.
+Der __Träger__ einer __Abbildung__ $f$ bezeichnet die [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] aller Werte aus dem __Definitionsbereich__, für den $f(x) \neq 0$ ist.
+Ist diese [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] endlich, so hat die __Abbildung__ einen _endlichen __Träger___.
 
 $Abb(M, N)_0 := \{f \in Abb(M, N)\ |\ f \text{ hat endlichen Träger}\}$

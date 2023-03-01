@@ -1,6 +1,6 @@
 ## Definition
 
-Sei $D$ eine [[Mengen|Menge]] von $1$ bis $n \in \mathbb{N}$
+Sei $D$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] von $1$ bis $n \in \mathbb{N}$
 	$D := \{1, 2, \dots, n\}$
 Eine __Permutation__ ist eine [[Abbildungen#Bijektiv|bijektive]] [[Abbildungen|Abbildung]] $\sigma: D \rightarrow D$. Sie vertauscht sozusagen _Indizes_ in einer _Menge_.
 Eine __Permutation__ kann auf verschiedene Arten gegeben sein:

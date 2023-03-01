@@ -17,7 +17,7 @@ $A \Leftrightarrow B$ bedeutet: $(A \Rightarrow B) \land (B \Rightarrow A)$
 also: Wenn $A$ gilt muss auch $B$ gelten, und wenn $B$ gilt muss auch $A$ gelten.
 
 ### Quantoren
-Sei $A$ eine [[#Definition|Aussage]], und $M$ eine [[Mengen#Definition|Menge]].
+Sei $A$ eine [[#Definition|Aussage]], und $M$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]].
 
 __Für alle Quantor__:
 	$\forall m \in M: A$

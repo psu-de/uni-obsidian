@@ -1,6 +1,6 @@
 
 # Definition
-Sei $M$ eine [[Mengen#Definition|Menge]], und $*$ eine [[Abbildungen#Verknüpfung|Verknüpfung]].
+Sei $M$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Definition|Menge]], und $*$ eine [[Abbildungen#Verknüpfung|Verknüpfung]].
 $(M, *)$ bildet eine __Gruppe__, wenn alle Bedingungen erfüllt sind:
 	1) Die [[Abbildungen#Verknüpfung|Verknüpfung]] $*$ ist __assoziativ__.
 	2) __Neutrales Element__:
@@ -17,7 +17,7 @@ $(M, *)$ bildet eine __Gruppe__, wenn alle Bedingungen erfüllt sind:
 Eine [[#Definition|Gruppe]] heißt __abelsch__, wenn die [[Abbildungen#Verknüpfung|Verknüpfung]] __kommutativ__ ist.
 
 ### Untergruppen
-Eine __Untergruppe__ $(H, \circ)$ einer [[#Definition|Gruppe]] $(G, *)$ ist eine [[Mengen#Teilmenge|Teilmenge]] von $G$.
+Eine __Untergruppe__ $(H, \circ)$ einer [[#Definition|Gruppe]] $(G, *)$ ist eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]] von $G$.
 Für die __Untergruppe__ gilt:
 	- $\forall h_1, h_2 \in H: h_1 \circ h_2 = h_1 * h_2$
 	- $\forall h_1, h_2 \in H: h_1 \circ h_2 \in H$
@@ -30,9 +30,9 @@ Wenn $H \subseteq G$ ist $(H, *)$ eine __Untergruppe__, wenn:
 Satz: Für zwei __Untegruppen__ $H, M$ gilt: $H \cap M$ ist auch eine __Untergruppe__.
 
 ### Gruppenerzeugnis
-Sei $(G, *)$ eine [[Gruppen|Gruppe]], und $M$ eine [[Mengen#Teilmenge|Teilmenge]] von $G$.
+Sei $(G, *)$ eine [[Gruppen|Gruppe]], und $M$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen#Teilmenge|Teilmenge]] von $G$.
 Das __Gruppenerzeugnis__ $\langle E \rangle$ ist die _kleinste_ [[#Untergruppen|Untergruppe]] von $G$, die $M$ enthält.
-Sei $I$ die [[Mengen|Menge]] aller [[#Untergruppen]] die $M$ enthalten.
+Sei $I$ die [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]] aller [[#Untergruppen]] die $M$ enthalten.
 	$\langle M \rangle := \bigcap\limits_{i\in I} i$
 $\langle M \rangle$ enthält genau die Elemente, die sich durch _endlich_ viele Operationen $*$ auf die Elemente von  $M \cup M^{-1}$ ergeben ($M^{-1} := \{ m^{-1} | m \in M \}$).
 Gibt es eine [[#Untergruppen|Untergruppe]] $U$, für die $U = \langle M \rangle$ gilt, so heißt $M$ __Erzeugendensystem___ von $U$.
@@ -55,7 +55,7 @@ Die __symmetrische Gruppe__ enthält alle [[Permutationen]] auf $D$.
 
 
 ### Gruppenoperation
-Sei $(G, *)$ eine [[Gruppen|Gruppe]] und $M$ eine [[Mengen|Menge]].
+Sei $(G, *)$ eine [[Gruppen|Gruppe]] und $M$ eine [[Module/LA1/Zusammenfassung/Objekte/Mengen|Menge]].
 Eine __Operation__ ist eine [[Abbildungen|Abbildung]] von $G$ nach $M$:
 	$\bullet: G \times M \rightarrow M$
 
